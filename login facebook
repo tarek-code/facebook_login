@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#394CB5"
+    >
+
+     <ImageView
+        android:layout_width="99dp"
+        android:layout_height="79dp"
+        android:layout_centerHorizontal="true"
+     android:layout_marginTop="100dp"
+         android:src="@drawable/face"
+         android:id="@+id/ima"
+         />
+    <EditText
+        android:layout_width="320dp"
+        android:layout_height="60dp"
+        android:hint="Email or phone"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/ima"
+        android:layout_marginTop="50dp"
+        android:id="@+id/email"
+        android:textColorHint="#fff"
+        />
+    <EditText
+        android:layout_width="320dp"
+        android:layout_height="60dp"
+        android:hint="passowrd"
+        android:layout_centerHorizontal="true"
+      android:layout_below="@id/email"
+        android:layout_marginTop="20dp"
+android:id="@+id/pass"
+android:textColorHint="#fff"
+        />
+    <Button
+        android:layout_width="320dp"
+        android:layout_height="60dp"
+android:layout_below="@id/pass"
+        android:layout_centerHorizontal="true"
+        android:background="#3E53CD"
+        android:text="log in"
+        android:textColor="#fff"
+        android:textSize="20dp"
+        android:layout_marginTop="15dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="forgot password?"
+        android:textSize="20dp"
+android:layout_alignParentBottom="true"
+ android:layout_marginBottom="35dp"
+        android:id="@+id/forget"
+        android:textColor="#fff"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/forget"
+        android:layout_marginBottom="20dp"
+        android:text="sign up for facebook"
+        android:textSize="20dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="#fff"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="؟"
+        android:textSize="35dp"
+       android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+       android:layout_marginBottom="35dp"
+        android:textColor="#fff"
+       android:layout_marginRight="35dp"
+        />
+</RelativeLayout>
